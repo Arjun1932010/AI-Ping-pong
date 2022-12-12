@@ -6,3 +6,6 @@ background:cover;
     width:100%;
     text-align:left;
 }
+#restart{
+    background-image: "swap-arrows-refresh.jpg";
+}
