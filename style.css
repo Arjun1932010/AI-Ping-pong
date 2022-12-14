@@ -29,3 +29,6 @@ background:cover;
 .modal-dialog{
     width:70%;
 }
+canvas{
+    box-shadow:3px 3px 3px 3px red;
+}
