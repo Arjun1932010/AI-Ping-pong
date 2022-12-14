@@ -16,22 +16,46 @@
     </head>
     <body background="background.jpg" id="bootstrap_modal">
      <center>
-        <div class="btn btn-warning">
-        <h3 class="btn btn-danger heading">AI Ping-Pong</h3>
-        <button class="btn btn-success" data-toggle="modal" data-target="#myModal">Instructions</button>
+        <div class="btn btn-warning heading">
+        <h3>AI Ping-Pong
+       
+    </h3>
+    <button id="instructions"class="btn btn-success" data-toggle="modal" data-target="#myModal">Instructions</button>
     </div>
     <br><br>
+    
    
   
     <button id="start" onclick="startGame()" class="btn btn-primary">START</button>
     <br>
     <h3 id="status" class="btn btn-info"></h3>
     <br>
-    <button id="restart" onclick="restart()">RESTART</button>
+    <button id="restart" onclick="restart()"></button>
     <br><br>
     <div id="canvas"></div>
     <br>
     <h4 class="copy-right-footer">By Arjun Kalra</h4>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+           <div class="modal-header">
+            <button class="close" data-dismiss="modal">&times;</button>
+            <h4>Instructions</h4>
+           </div>
+
+           <div class="modal-body">
+            <ol>
+                <li>First keep your laptop straight</li>
+                <li>Move yourself approximately 3-4 feet away from the laptop</li>
+                <li>Move your right wrist in ascending and descending manner, a red dot should appear on your right wrist.</li>
+                <li>Now press play button</li>
+                <li>The red paddel is your paddel, that will move as per the movement of your right</li>
+            </ol>
+           </div>
+            </div>
+        </div>
+    </div>
 </center>
         <script src="main.js"></script>
     </body>

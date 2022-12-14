@@ -7,5 +7,25 @@ background:cover;
     text-align:left;
 }
 #restart{
-    background-image: "swap-arrows-refresh.jpg";
+    background-image:url("swap-arrows-refresh.jpg") ;
+    background-size:cover;
+    width:100px;
+    height:100px;
+}
+.copy-right-footer{
+    width:100%;
+    background-color:aqua;
+    line-height:3;
+}
+#instructions{
+    float:right;
+}
+.heading h3{
+    display:inline;
+}
+.modal-body{
+    text-align:left;
+}
+.modal-dialog{
+    width:70%;
 }
