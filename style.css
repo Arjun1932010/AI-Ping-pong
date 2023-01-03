@@ -1,34 +1,41 @@
-body
+
+.heading
 {
-background:cover;
-}
-.heading{
-    width:100%;
-    text-align:left;
-}
-#restart{
-    background-image:url("swap-arrows-refresh.jpg") ;
-    background-size:cover;
-    width:100px;
-    height:100px;
-}
-.copy-right-footer{
-    width:100%;
-    background-color:aqua;
-    line-height:3;
-}
-#instructions{
-    float:right;
+width: 100%;
+text-align: left;
 }
 .heading h3{
-    display:inline;
+    display: inline;
 }
-.modal-body{
-    text-align:left;
+
+.heading button{
+    float: right;
+    border: 1px solid white;
 }
-.modal-dialog{
-    width:70%;
+
+#start ,#status, #restart
+{
+font-size: 22px;
 }
-canvas{
-    box-shadow:3px 3px 3px 3px red;
+
+.modal-dialog
+{
+    width: 70%;
 }
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
